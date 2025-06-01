@@ -20,4 +20,4 @@ class TitleScene:
                 if event.type == pygame.QUIT:
                     return None
                 elif event.type == pygame.KEYDOWN:
-                    return MazeScene(self.screen)
+                    return MazeScene(self.screen,10,10)
